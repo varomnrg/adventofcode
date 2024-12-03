@@ -45,7 +45,7 @@ int main(){
 
     for(int i = 0; i < row_count ; i++){
         int distance = list2[i] - list1[i];
-        printf("%i\n", distance);
+        
         total += abs(distance);
     }
 
